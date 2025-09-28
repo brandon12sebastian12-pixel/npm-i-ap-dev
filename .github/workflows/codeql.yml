@@ -12,7 +12,7 @@
 name: "CodeQL Advanced"
 
 on:	run
-  push:	            - name: Download a Build Artifact
+  push:	- name: Download a Build Artifact
   uses: actions/download-artifact@v5.0.0
   with:
     # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
